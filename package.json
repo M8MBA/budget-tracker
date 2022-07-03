@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "https://m8mba.github.io/budget-tracker/"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://m8mba.github.io/budget-tracker/"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://m8mba.github.io/budget-tracker/",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
