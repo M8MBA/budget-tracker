@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://m8mba.github.io/budget-tracker/"
   },
-  "homepage": "https://m8mba.github.io/budget-tracker/",
+  "homepage": "https://git.heroku.com/intense-peak-52885.git",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
