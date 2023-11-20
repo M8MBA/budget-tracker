@@ -2,17 +2,21 @@ let transactions = [];
 let myChart;
 
 fetch('/api/transaction')
-  .then(response => {
-    return response.json();
-  })
+.then(response => response.json())
   .then(data => {
-    // save db data on global variable
+    // check if the data is an array
+    if (Array.isArray(data)) {
+    // Save db data to the global variable
     transactions = data;
 
     populateTotal();
     populateTable();
     populateChart();
-  });
+  } else {
+    console.error('Unexpected data format', data);
+  }
+})
+.catch(error => console.error('Fetch error:', error));
 
 function populateTotal() {
   // reduce transaction amounts to a single total value
