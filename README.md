@@ -9,7 +9,7 @@
 
 ## Link
 
-- Application: https://intense-peak-52885.herokuapp.com/
+- Application: 
 - Repository: https://github.com/M8MBA/budget-tracker.git
 
 ## Skills
